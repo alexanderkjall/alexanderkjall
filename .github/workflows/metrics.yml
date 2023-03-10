@@ -17,6 +17,7 @@ jobs:
           base: header
           plugin_isocalendar: yes
           plugin_languages: yes
-          plugin_stars: yes
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 131697
           config_order: base.header, isocalendar, languages, stars
           token: ${{ secrets.METRICS_TOKEN }}
